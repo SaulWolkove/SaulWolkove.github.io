@@ -1,5 +1,5 @@
 import styles from "./index.css";
-import { BrowserRouter as Router, Route, Routes, useNavigate } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, useNavigate, useHistory } from "react-router-dom";
 import Landing from "./components/Landing";
 import Banner from "./components/Banner";
 import About from "./components/About";
@@ -10,6 +10,12 @@ import Contact from "./components/Contact";
 
 
 function App() {
+  const history = useHistory();
+
+  useEffect(() => {
+    // Use the history object to push the desired route
+    history.push('/about');
+  }, [history]);
   return (
       <Router>
           <Banner/>
