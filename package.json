@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && xcopy /s /e build personal_website\\build",
+    "build": "react-scripts build && npx copyfiles -u 1 build/** personal_website/build/",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy" : "npm run build",
