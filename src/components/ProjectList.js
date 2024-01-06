@@ -94,14 +94,14 @@ export default function ProjectList(){
                 </a>
                 <div>
                     <a href="https://github.com/SaulWolkove/Google-Maps-api-social-project/tree/main" target="_blank" rel="noreferrer">
-                        <img src={gmapi} style = {getImage("1")}/>
+                        <img src={gmapi} style = {getImage("1")} alt="mapsApi"/>
                     </a>
                 </div>
             </div>
             <div style={getInverseElementStyle("2")} onMouseEnter={()=>{setHovered("2")}} onMouseLeave={()=>{setHovered(null)}}> 
                 <div>
                     <a href="https://queens-web-development-club.github.io/w23-red-cross/about" target="_blank" rel="noreferrer">
-                        <img src={redCross} style = {getImage("2")}/>
+                        <img src={redCross} style = {getImage("2")} alt="mapsApi"/>
                     </a>
                 </div>
                 <a href="https://queens-web-development-club.github.io/w23-red-cross/about" target="_blank" rel="noreferrer"> 
@@ -114,7 +114,7 @@ export default function ProjectList(){
                 </a>
             </div>
             <div style={getElementStyle("3")} onMouseEnter={()=>{setHovered("3")}} onMouseLeave={()=>{setHovered(null)}}>
-                <a href="https://github.com/SaulWolkove/PythonWikiscrapingGame" target="_blank">
+                <a href="https://github.com/SaulWolkove/PythonWikiscrapingGame" target="_blank" rel="noreferrer">
                     <div>
                         Python Web Scraping Game 
                         <div style={getBioStyle("ls")}>
@@ -123,18 +123,18 @@ export default function ProjectList(){
                     </div>
                 </a>
                 <div>
-                    <a href="https://github.com/SaulWolkove/PythonWikiscrapingGame" target="_blank">
+                    <a href="https://github.com/SaulWolkove/PythonWikiscrapingGame" target="_blank" rel="noreferrer">
                         <img src={scrape} style = {getImage("3")}/>
                     </a>
                 </div>
             </div>
             <div style={{...getInverseElementStyle("4"), textAlign:"right", justifyContent: "right"}} onMouseEnter={()=>{setHovered("4")}} onMouseLeave={()=>{setHovered(null)}}>
                 <div>
-                    <a href="https://github.com/SaulWolkove/diskjstraCalculatorExample" target="_blank">
+                    <a href="https://github.com/SaulWolkove/diskjstraCalculatorExample" target="_blank" rel="noreferrer">
                         <img src={DijkStra} style = {getImage("4")}/>
                     </a>
                 </div>
-                <a href="https://github.com/SaulWolkove/diskjstraCalculatorExample" target="_blank">
+                <a href="https://github.com/SaulWolkove/diskjstraCalculatorExample" target="_blank" rel="noreferrer">
                     <div style={{position:"relative"}}>
                         DijkStra's Algorithm Computer
                         <div style={getBioStyle("rs")}>

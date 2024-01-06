@@ -118,10 +118,10 @@ export default function Banner() {
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tektur"></link>
 
       <div style={{display:"flex",justifyContent:"flex-start",alignItems:"center",marginLeft:"10px"}}>
-        <a href="https://github.com/SaulWolkove" target="_blank">
+        <a href="https://github.com/SaulWolkove" target="_blank" rel="noreferrer">
           <img src={github} style = {icon} alt="github"/>
         </a>
-        <a href="https://linkedin.com/in/saulwolkove" target="_blank" >
+        <a href="https://linkedin.com/in/saulwolkove" target="_blank" rel="noreferrer">
           <img src={linkedin} style = {icon} alt="linkedin"/>
         </a>
         {/* 
