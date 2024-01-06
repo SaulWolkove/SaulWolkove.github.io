@@ -124,14 +124,14 @@ export default function ProjectList(){
                 </a>
                 <div>
                     <a href="https://github.com/SaulWolkove/PythonWikiscrapingGame" target="_blank" rel="noreferrer">
-                        <img src={scrape} style = {getImage("3")}/>
+                        <img src={scrape} style = {getImage("3")} alt="python scraper"/>
                     </a>
                 </div>
             </div>
             <div style={{...getInverseElementStyle("4"), textAlign:"right", justifyContent: "right"}} onMouseEnter={()=>{setHovered("4")}} onMouseLeave={()=>{setHovered(null)}}>
                 <div>
                     <a href="https://github.com/SaulWolkove/diskjstraCalculatorExample" target="_blank" rel="noreferrer">
-                        <img src={DijkStra} style = {getImage("4")}/>
+                        <img src={DijkStra} style = {getImage("4")} alt="dijkstra"/>
                     </a>
                 </div>
                 <a href="https://github.com/SaulWolkove/diskjstraCalculatorExample" target="_blank" rel="noreferrer">
