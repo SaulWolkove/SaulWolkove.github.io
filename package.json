@@ -1,6 +1,6 @@
 {
   "name": "personal-site",
-  "homepage": "http://SaulWolkove.github.io/personal_website",
+  "homepage": "http://SaulWolkove.github.io/personal_website/about",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
