@@ -12,7 +12,7 @@ import Contact from "./components/Contact";
 function App() {
   useEffect(() => {
     // Redirect to "/about" when the component mounts
-    navigate('/about');
+    useNavigate('/about');
   }, [useNavigate]);
   return (
       <Router>
