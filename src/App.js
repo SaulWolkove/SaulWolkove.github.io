@@ -15,7 +15,6 @@ function App() {
           <Banner/>
           <Routes>
             <Route path="/" element={<Navigate to="/about" />} />
-            <Route path="/landing" element={<Landing/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/experience" element={<Experience/>}/>
             <Route path="/projects" element={<Projects/>}/>
