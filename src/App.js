@@ -1,6 +1,5 @@
-import styles from "./index.css";
-import { BrowserRouter as Router, Route, Routes, useNavigate} from "react-router-dom";
-import Landing from "./components/Landing";
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
+//import Landing from "./components/Landing";
 import Banner from "./components/Banner";
 import About from "./components/About";
 import Experience from "./components/Experience";

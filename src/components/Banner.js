@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { useNavigate, BrowserRouter } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import github from "./../assets/github.png";
 import linkedin from "./../assets/linkedin.png";
-import mail from "./../assets/mail.png";
-import CopyEmail from "./CopyEmail";
+//import mail from "./../assets/mail.png";
+//import CopyEmail from "./CopyEmail";
 
 export default function Banner() {
   const navigate = useNavigate();
@@ -22,10 +22,10 @@ export default function Banner() {
     navigate("/projects");
     setSelectedButton("projects");
   };
-  const routeContact = () => {
-    navigate("/contact");
-    setSelectedButton("contact");
-  };
+  // const routeContact = () => {
+  //   navigate("/contact");
+  //   setSelectedButton("contact");
+  // };
   const openPdf = () => {
     // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
     const pdfUrl = "../public/newYearResume.pdf";
@@ -37,7 +37,6 @@ export default function Banner() {
       background: "none",
       border: "none",
       cursor: "pointer",
-      fontSize: "16px",
       fontSize: isHovered === buttonName ? "1.4em" : "1.3em",
       color: selectedButton === buttonName ? "#e8473d" : (isHovered === buttonName ? "#e8473d" : "black"),
       textDecoration: selectedButton === buttonName ? "underline" : "none",
@@ -120,10 +119,10 @@ export default function Banner() {
 
       <div style={{display:"flex",justifyContent:"flex-start",alignItems:"center",marginLeft:"10px"}}>
         <a href="https://github.com/SaulWolkove" target="_blank">
-          <img src={github} style = {icon}/>
+          <img src={github} style = {icon} alt="github"/>
         </a>
-        <a href="https://linkedin.com/in/saulwolkove" target="_blank">
-          <img src={linkedin} style = {icon}/>
+        <a href="https://linkedin.com/in/saulwolkove" target="_blank" >
+          <img src={linkedin} style = {icon} alt="linkedin"/>
         </a>
         {/* 
         <a href={"mailto:saul.wolkove@gmail.com"} target="_blank">

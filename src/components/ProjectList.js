@@ -84,7 +84,7 @@ export default function ProjectList(){
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu"></link>
 
             <div style={getElementStyle("1")} onMouseEnter={()=>{setHovered("1")}} onMouseLeave={()=>{setHovered(null)}}>
-                <a href="https://github.com/SaulWolkove/Google-Maps-api-social-project/tree/main" target="_blank">
+                <a href="https://github.com/SaulWolkove/Google-Maps-api-social-project/tree/main" target="_blank" rel="noreferrer">
                     <div>
                         Google Maps Travel Tracker
                         <div style={getBioStyle("ls")}>
@@ -93,18 +93,18 @@ export default function ProjectList(){
                     </div>
                 </a>
                 <div>
-                    <a href="https://github.com/SaulWolkove/Google-Maps-api-social-project/tree/main" target="_blank">
+                    <a href="https://github.com/SaulWolkove/Google-Maps-api-social-project/tree/main" target="_blank" rel="noreferrer">
                         <img src={gmapi} style = {getImage("1")}/>
                     </a>
                 </div>
             </div>
             <div style={getInverseElementStyle("2")} onMouseEnter={()=>{setHovered("2")}} onMouseLeave={()=>{setHovered(null)}}> 
                 <div>
-                    <a href="https://queens-web-development-club.github.io/w23-red-cross/about" target="_blank">
+                    <a href="https://queens-web-development-club.github.io/w23-red-cross/about" target="_blank" rel="noreferrer">
                         <img src={redCross} style = {getImage("2")}/>
                     </a>
                 </div>
-                <a href="https://queens-web-development-club.github.io/w23-red-cross/about" target="_blank">
+                <a href="https://queens-web-development-club.github.io/w23-red-cross/about" target="_blank" rel="noreferrer"> 
                     <div style={{position:"relative"}}>
                         Queen's Red Cross Website
                         <div style={getBioStyle("rs")}>

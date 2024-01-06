@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react';
-import Icon from '@mdi/react';
-import { mdiGuitarAcoustic, mdiShieldCrownOutline } from '@mdi/js';
+//import Icon from '@mdi/react';
+//import { mdiGuitarAcoustic, mdiShieldCrownOutline } from '@mdi/js';
 
 
 
@@ -38,14 +38,14 @@ const div2Style = {
   position: 'relative',
 };
 
-const iconStyle = {
-  position: 'absolute',
-  top: '0',
-  right: '0',
-  color:"black",
-  marginRight:"20px",
+// const iconStyle = {
+//   position: 'absolute',
+//   top: '0',
+//   right: '0',
+//   color:"black",
+//   marginRight:"20px",
 
-};
+// };
 
 const div3Style = {
   gridArea: '3 / 1 / 4 / 2',
@@ -54,7 +54,6 @@ const div3Style = {
   marginLeft: '25%',
   fontFamily: 'Jura',
   color: '#48494B',
-  fontSize: '1.1em',
   fontSize: '1.1em',
   display: 'flex',
   flexDirection: 'column',
@@ -65,15 +64,15 @@ const div3Style = {
 
 // ... (existing code)
 
-const imageStyle = {
-  position: 'absolute',
-  left: '0',
-  bottom: "0",
-  marginTop: 'auto',
-  marginBottom: "30px",
-  marginLeft: '20px',  // Adjusted to move the guitar icon to the left
-  color:"black"
-};
+// const imageStyle = {
+//   position: 'absolute',
+//   left: '0',
+//   bottom: "0",
+//   marginTop: 'auto',
+//   marginBottom: "30px",
+//   marginLeft: '20px',  // Adjusted to move the guitar icon to the left
+//   color:"black"
+// };
 
 
 function About() {
