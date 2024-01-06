@@ -1,5 +1,5 @@
 import styles from "./index.css";
-import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, useNavigate } from "react-router-dom";
 import Landing from "./components/Landing";
 import Banner from "./components/Banner";
 import About from "./components/About";
@@ -10,11 +10,14 @@ import Contact from "./components/Contact";
 
 
 function App() {
+  useEffect(() => {
+    // Redirect to "/about" when the component mounts
+    navigate('/about');
+  }, [useNavigate]);
   return (
       <Router>
           <Banner/>
           <Routes>
-            <Route path="/" element={<Navigate to="/about" />} />
             <Route path="/about" element={<About/>}/>
             <Route path="/experience" element={<Experience/>}/>
             <Route path="/projects" element={<Projects/>}/>
