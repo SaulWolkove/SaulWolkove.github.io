@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/personal_website/static/js/main.0a9a2c3c.js",
+    "static/media/download.png": "/personal_website/static/media/download.56d094484b3048abfd93.png",
+    "static/media/scrape.png": "/personal_website/static/media/scrape.53400533e87dd991b333.png",
+    "static/media/dijkstra.jpg": "/personal_website/static/media/dijkstra.696e17011c3b83e67ffd.jpg",
+    "static/media/images.jpg": "/personal_website/static/media/images.46a8d616753eb772b0bf.jpg",
+    "static/media/github.png": "/personal_website/static/media/github.ba9cb8d57d53e7189c48.png",
+    "index.html": "/personal_website/index.html",
+    "main.0a9a2c3c.js.map": "/personal_website/static/js/main.0a9a2c3c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.0a9a2c3c.js"
+  ]
+}
