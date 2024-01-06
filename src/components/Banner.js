@@ -28,7 +28,7 @@ export default function Banner() {
   };
   const openPdf = () => {
     // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
-    const pdfUrl = "newYearResume.pdf";
+    const pdfUrl = "../public/newYearResume.pdf";
     window.open(pdfUrl, "_blank");
   };
 
