@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, BrowserRouter } from "react-router-dom";
 import github from "./../assets/github.png";
 import linkedin from "./../assets/linkedin.png";
 import mail from "./../assets/mail.png";
