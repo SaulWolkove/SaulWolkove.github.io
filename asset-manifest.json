@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b297401.css",
-    "main.js": "/static/js/main.68549fc9.js",
-    "static/media/download.png": "/static/media/download.56d094484b3048abfd93.png",
-    "static/media/scrape.png": "/static/media/scrape.53400533e87dd991b333.png",
-    "static/media/dijkstra.jpg": "/static/media/dijkstra.696e17011c3b83e67ffd.jpg",
-    "static/media/images.jpg": "/static/media/images.46a8d616753eb772b0bf.jpg",
-    "static/media/github.png": "/static/media/github.ba9cb8d57d53e7189c48.png",
-    "index.html": "/index.html",
-    "main.1b297401.css.map": "/static/css/main.1b297401.css.map",
-    "main.68549fc9.js.map": "/static/js/main.68549fc9.js.map"
+    "main.css": "/personal_website/static/css/main.1b297401.css",
+    "main.js": "/personal_website/static/js/main.b83c5b67.js",
+    "static/media/download.png": "/personal_website/static/media/download.56d094484b3048abfd93.png",
+    "static/media/scrape.png": "/personal_website/static/media/scrape.53400533e87dd991b333.png",
+    "static/media/dijkstra.jpg": "/personal_website/static/media/dijkstra.696e17011c3b83e67ffd.jpg",
+    "static/media/images.jpg": "/personal_website/static/media/images.46a8d616753eb772b0bf.jpg",
+    "static/media/github.png": "/personal_website/static/media/github.ba9cb8d57d53e7189c48.png",
+    "index.html": "/personal_website/index.html",
+    "main.1b297401.css.map": "/personal_website/static/css/main.1b297401.css.map",
+    "main.b83c5b67.js.map": "/personal_website/static/js/main.b83c5b67.js.map"
   },
   "entrypoints": [
     "static/css/main.1b297401.css",
-    "static/js/main.68549fc9.js"
+    "static/js/main.b83c5b67.js"
   ]
 }
