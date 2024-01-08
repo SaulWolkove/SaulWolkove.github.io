@@ -5,7 +5,7 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App/>
+    <App style={{margin:"0",padding:"0",boxSizing:"border-box"}}/>
   </React.StrictMode>
 );
 

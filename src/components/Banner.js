@@ -28,7 +28,7 @@ export default function Banner() {
   // };
   const openPdf = () => {
     // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
-    const pdfUrl = "../public/newYearResume.pdf";
+    const pdfUrl = "newYearResume.pdf";
     window.open(pdfUrl, "_blank");
   };
 
@@ -50,7 +50,6 @@ export default function Banner() {
       gridTemplateColumns:"1fr 1fr",
       paddingRight: "20px",
       backgroundColor: "#f0f0f0",
-      paddingTop: "20px",
       position: isHovered === buttonName ? "absolute" : "relative",
       fontFamily:"Tektur"
     }

@@ -1,7 +1,7 @@
 
 const parentStyle = {
     backgroundColor: '#f0f0f0',
-    height: 'calc(100vh - 55.2px)',
+    height: 'calc(100vh - 58.67px)',
     overflowY: 'scroll',
     fontFamily: 'Kanit',
   };

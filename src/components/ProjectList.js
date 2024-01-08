@@ -36,7 +36,7 @@ export default function ProjectList(){
             alignItems: "center",
             backgroundColor: number === hoveredElem ? "#dadada" : "",
             opacity: number !== hoveredElem && hoveredElem !== null ? "0.3" : "1",
-            color: number === hoveredElem ? "#f7362a" : "black",
+            color: number === hoveredElem ? "#fffdfb" : "black",
         }
       };
       const getInverseElementStyle =(number)=> {
@@ -53,7 +53,7 @@ export default function ProjectList(){
             opacity: number !== hoveredElem && hoveredElem !== null ? "0.3" : "1",
             textAlign:"right", 
             justifyContent: "right",
-            color: number === hoveredElem ? "#f7362a" : "black",
+            color: number === hoveredElem ? "#fffdfb" : "black",
 
         }
       };
@@ -85,7 +85,7 @@ export default function ProjectList(){
 
             <div style={getElementStyle("1")} onMouseEnter={()=>{setHovered("1")}} onMouseLeave={()=>{setHovered(null)}}>
                 <a href="https://github.com/SaulWolkove/Google-Maps-api-social-project/tree/main" target="_blank" rel="noreferrer">
-                    <div>
+                    <div style={{color: "inherit"}}>
                         Google Maps Travel Tracker
                         <div style={getBioStyle("ls")}>
                             Implemented Google's Mapping API service into a React framework to visualize the data, and created account tracking and user functionality by developing APIs using Mongoose to connect to MongoDB database functionality. Used React to generate interactive frontend, and packaged CSS into Tailwind.css.
