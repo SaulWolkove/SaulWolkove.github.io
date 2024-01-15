@@ -11,7 +11,7 @@ const parentStyle = {
   gridColumnGap: 'px',
   gridRowGap: '10px',
   width: '100%',
-  height: 'calc(100vh - 43.99px)',
+  height: 'calc(100vh - 45.2px)',
   backgroundColor: '#f0f0f0',
 };
 
@@ -34,7 +34,7 @@ const div2Style = {
   paddingLeft: '5%',
   fontFamily: 'Jura',
   color: '#48494B',
-  fontSize: '1.1em',
+  fontSize: '1.3em',
   position: 'relative',
 };
 
@@ -54,7 +54,7 @@ const div3Style = {
   marginLeft: '25%',
   fontFamily: 'Jura',
   color: '#48494B',
-  fontSize: '1.1em',
+  fontSize: '1.3em',
   display: 'flex',
   flexDirection: 'column',
   paddingBottom: '5%',
