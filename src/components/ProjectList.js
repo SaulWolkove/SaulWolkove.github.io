@@ -30,11 +30,12 @@ export default function ProjectList(){
             fontFamily: 'Ubuntu',
             display: 'grid', // Use flex container
             gridTemplateColumns:"2fr 1fr", // Arrange child elements vertically
-            borderRadius: "40px",
-            padding: number === hoveredElem ? "3px" : "0",
-            transition: "border .6s ease, padding .6s ease, background-color .6s ease, opacity .6s ease",
+            borderRadius: number === hoveredElem ? "40px" : "0",
+            border:"0.5px solid #E1E1E1",
+            padding: "15px",
+            transition: "border .6s ease, padding .6s ease, background-color 1s ease, opacity .6s ease, border-radius 1s ease",
             alignItems: "center",
-            backgroundColor: number === hoveredElem ? "#dadada" : "",
+            backgroundColor: number === hoveredElem ? "#A7A7A7" : "",
             opacity: number !== hoveredElem && hoveredElem !== null ? "0.3" : "1",
             color: number === hoveredElem ? "#fffdfb" : "black",
         }
@@ -45,15 +46,17 @@ export default function ProjectList(){
             fontFamily: 'Ubuntu',
             display: 'grid', // Use flex container
             gridTemplateColumns:"1fr 2fr", // Arrange child elements vertically
-            borderRadius: "4px",
-            padding: number === hoveredElem ? "3px" : "0",
-            transition: "border .6s ease, padding .6s ease, background-color .6s ease, opacity .6s ease",
+            borderRadius: number === hoveredElem ? "40px" : "0",
+            padding:"15px",
+            transition: "border .6s ease, padding .6s ease, background-color 1s ease, opacity .6s ease, border-radius 1s ease",
             alignItems: "center",
-            backgroundColor: number === hoveredElem ? "#dadada" : "",
+            backgroundColor: number === hoveredElem ? "#A7A7A7" : "",
             opacity: number !== hoveredElem && hoveredElem !== null ? "0.3" : "1",
             textAlign:"right", 
             justifyContent: "right",
             color: number === hoveredElem ? "#fffdfb" : "black",
+            border:"0.5px solid #E1E1E1",
+
 
         }
       };
@@ -78,14 +81,19 @@ export default function ProjectList(){
             marginLeft: side === "rs" ? 'auto' : "",
         }
       };
+
+    const preventLinkColor = {
+        color: "inherit",
+        textDecoration: "none"
+    }
     
     return(
         <div style={gridStyle}>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu"></link>
 
             <div style={getElementStyle("1")} onMouseEnter={()=>{setHovered("1")}} onMouseLeave={()=>{setHovered(null)}}>
-                <a href="https://github.com/SaulWolkove/Google-Maps-api-social-project/tree/main" target="_blank" rel="noreferrer">
-                    <div style={{color: "inherit"}}>
+                <a href="https://github.com/SaulWolkove/Google-Maps-api-social-project/tree/main" target="_blank" rel="noreferrer" style={preventLinkColor}>
+                    <div>
                         Google Maps Travel Tracker
                         <div style={getBioStyle("ls")}>
                             Implemented Google's Mapping API service into a React framework to visualize the data, and created account tracking and user functionality by developing APIs using Mongoose to connect to MongoDB database functionality. Used React to generate interactive frontend, and packaged CSS into Tailwind.css.
@@ -93,18 +101,18 @@ export default function ProjectList(){
                     </div>
                 </a>
                 <div>
-                    <a href="https://github.com/SaulWolkove/Google-Maps-api-social-project/tree/main" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/SaulWolkove/Google-Maps-api-social-project/tree/main" target="_blank" rel="noreferrer" style={preventLinkColor}>
                         <img src={gmapi} style = {getImage("1")} alt="mapsApi"/>
                     </a>
                 </div>
             </div>
             <div style={getInverseElementStyle("2")} onMouseEnter={()=>{setHovered("2")}} onMouseLeave={()=>{setHovered(null)}}> 
                 <div>
-                    <a href="https://queens-web-development-club.github.io/w23-red-cross/about" target="_blank" rel="noreferrer">
+                    <a href="https://queens-web-development-club.github.io/w23-red-cross/about" target="_blank" rel="noreferrer" style={preventLinkColor}>
                         <img src={redCross} style = {getImage("2")} alt="mapsApi"/>
                     </a>
                 </div>
-                <a href="https://queens-web-development-club.github.io/w23-red-cross/about" target="_blank" rel="noreferrer"> 
+                <a href="https://queens-web-development-club.github.io/w23-red-cross/about" target="_blank" rel="noreferrer" style={preventLinkColor}> 
                     <div style={{position:"relative"}}>
                         Queen's Red Cross Website
                         <div style={getBioStyle("rs")}>
@@ -114,7 +122,7 @@ export default function ProjectList(){
                 </a>
             </div>
             <div style={getElementStyle("3")} onMouseEnter={()=>{setHovered("3")}} onMouseLeave={()=>{setHovered(null)}}>
-                <a href="https://github.com/SaulWolkove/PythonWikiscrapingGame" target="_blank" rel="noreferrer">
+                <a href="https://github.com/SaulWolkove/PythonWikiscrapingGame" target="_blank" rel="noreferrer" style={preventLinkColor}>
                     <div>
                         Python Web Scraping Game 
                         <div style={getBioStyle("ls")}>
@@ -123,18 +131,18 @@ export default function ProjectList(){
                     </div>
                 </a>
                 <div>
-                    <a href="https://github.com/SaulWolkove/PythonWikiscrapingGame" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/SaulWolkove/PythonWikiscrapingGame" target="_blank" rel="noreferrer" style={preventLinkColor}>
                         <img src={scrape} style = {getImage("3")} alt="python scraper"/>
                     </a>
                 </div>
             </div>
             <div style={{...getInverseElementStyle("4"), textAlign:"right", justifyContent: "right"}} onMouseEnter={()=>{setHovered("4")}} onMouseLeave={()=>{setHovered(null)}}>
                 <div>
-                    <a href="https://github.com/SaulWolkove/diskjstraCalculatorExample" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/SaulWolkove/diskjstraCalculatorExample" target="_blank" rel="noreferrer" style={preventLinkColor}>
                         <img src={DijkStra} style = {getImage("4")} alt="dijkstra"/>
                     </a>
                 </div>
-                <a href="https://github.com/SaulWolkove/diskjstraCalculatorExample" target="_blank" rel="noreferrer">
+                <a href="https://github.com/SaulWolkove/diskjstraCalculatorExample" target="_blank" rel="noreferrer" style={preventLinkColor}>
                     <div style={{position:"relative"}}>
                         DijkStra's Algorithm Computer
                         <div style={getBioStyle("rs")}>

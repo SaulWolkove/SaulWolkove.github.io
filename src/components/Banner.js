@@ -51,7 +51,9 @@ export default function Banner() {
       paddingRight: "20px",
       backgroundColor: "#f0f0f0",
       position: isHovered === buttonName ? "absolute" : "relative",
-      fontFamily:"Tektur"
+      fontFamily:"Oxanium",
+      paddingTop:"10px"
+
     }
   }
 
@@ -115,6 +117,7 @@ export default function Banner() {
   return (
     <div style={bannerStyle()}>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tektur"></link>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxanium"></link>
 
       <div style={{display:"flex",justifyContent:"flex-start",alignItems:"center",marginLeft:"10px"}}>
         <a href="https://github.com/SaulWolkove" target="_blank" rel="noreferrer">

@@ -11,7 +11,7 @@ const parentStyle = {
   gridColumnGap: 'px',
   gridRowGap: '10px',
   width: '100%',
-  height: 'calc(100vh - 58.67px)',
+  height: 'calc(100vh - 43.99px)',
   backgroundColor: '#f0f0f0',
 };
 
